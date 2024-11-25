@@ -1,0 +1,187 @@
+header {
+  background-color: rgba(255, 255, 255, 0.8); /* Напівпрозорий білий фон */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; /* Щоб хедер завжди був зверху */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Розташування елементів справа */
+}
+
+nav li {
+  margin: 20px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  
+}
+
+
+.img{
+    position: absolute;
+  right: 20px; /* Відступ від правого краю */
+  top: 200px; /* Відступ від верхнього краю */
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+    border-top-color: #007bff; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px #007bff;
+    }
+    100% {
+        box-shadow: 0 0 50px #007bff;
+    }
+}
+.back-button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #015366; /* Зелений колір */
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    top: 40px;
+    left: 10px;
+  }
+  
+  .back-button svg {
+    fill: currentColor; /* Колір стрілки */
+  }
+
+
+
+body{
+    background-color: #E0F4F5;
+}
+
+.text {
+    width: 600px;
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    line-height: 1.5; /* Збільшуємо відстань між рядками */
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: "Vollkorn SC", serif;
+}
+.text2 {
+    width: 600px;
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    line-height: 1.5; /* Збільшуємо відстань між рядками */
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: "Vollkorn SC", serif;
+
+}
+.title {
+    font-size: 50px;
+    font-family: "Vollkorn SC", serif;
+  font-weight: 700px;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+h2{
+    font-size: 36px;
+    font-family: "Vollkorn SC", serif;
+    color: #E0F4F5;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 110px;
+    background-color: #015366;
+    padding: 20px 60px;
+}
+footer{
+  background-color: #aee7ea;
+
+  margin-bottom: 10px;
+  left: 0;
+  right: 0;
+  height: 260px;
+}
+h6{
+  color: black;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 1px;
+  margin-top: 3px;
+  justify-content: center;
+  text-align: center;
+  
+}
+p {
+  justify-content: center;
+  text-align: center;
+
+}
+.conteiner{
+  justify-content: center;
+}
+h3{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  padding-top: 5px;
+  background-color: #015366;
+  text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Розподіляємо картки рівномірно */
+    margin-top: 90px;
+    margin-bottom: 100px;
+  }
+  
+  .card {
+    text-align: center; /* Вирівнюємо текст по центру */
+    position: relative; /* Для позиціонування тексту */
+  }
+  
+  .card img {
+    width: 300px; /* Ширина зображення */
+    height: 200px; /* Висота зображення */
+  }
+  .img1:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+  
+  .card p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центруємо текст */
+    background-color: #E0F4F5;
+    padding: 10px 30px;
+  }
+  a {
+    color: #015366; /* Замініть "blue" на бажаний колір */
+    font-weight: bold;
+}
+a:hover {
+    color: yellow; /* Колір при наведенні */
+}
+  /* Додаткові стилі для оформлення карток */
+  .card {
+    /* Наприклад, додати тінь, радіус кутів тощо */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }

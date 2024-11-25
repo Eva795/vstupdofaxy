@@ -1,0 +1,91 @@
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle at 50% 50%, #63898C 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, #63898C 0%, transparent 50%);
+    background-size: 200px 200px;
+    animation: circles 10s linear infinite;
+  }
+  
+  @keyframes circles {
+    0% {
+      background-position: 0% 0%, 100% 100%;
+    }
+    100% {
+      background-position: 100% 0%, 0% 100%;
+    }
+  }
+  footer{
+    background-color: #aee7ea;
+  
+    margin-bottom: 10px;
+    left: 0;
+    right: 0;
+    height: 260px;
+  }
+  h6{
+    color: black;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    margin-top: 3px;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  p {
+    justify-content: center;
+    text-align: center;
+
+  }
+  .conteiner{
+    justify-content: center;
+  }
+  h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #015366;
+    text-align: center;
+  }
+
+/*.btn-details {
+    background-color: #015366; /* Синій колір фону */
+
+
+.container {
+    text-align: center; /* Центруємо текст */
+    margin: 0 auto; /* Центруємо контейнер на сторінці */
+    max-width: 800px; /* Максимальна ширина контейнера */
+    margin-top: 150px;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Vinnytsia Sans', sans-serif;
+    
+  }
+  
+  .image {
+    width: 700px;
+    height: 400px; /* Займає всю ширину контейнера */
+    border-radius: 60px;
+  }
+  
+  .btn-details {
+    background-color: #015366;
+    color: #E0F4F5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Vinnytsia Sans', sans-serif;
+    margin-top: 50px;
+  }

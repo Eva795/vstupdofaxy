@@ -1,0 +1,280 @@
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Напівпрозорий білий фон */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* Щоб хедер завжди був зверху */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Розташування елементів справа */
+  }
+  
+  nav li {
+    margin: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #015366; /* Замініть "blue" на бажаний колір */
+      font-weight: bold;
+  }
+  a:hover {
+    color: yellow; /* Колір при наведенні */
+  }
+  .back-button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #015366; /* Зелений колір */
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    top: 60px;
+    left: 10px;
+  }
+  
+.back-button svg {
+    fill: currentColor; /* Колір стрілки */
+  }
+
+
+
+body{
+    background-color: #E0F4F5;
+}
+footer{
+    background-color: #aee7ea;
+  
+    margin-bottom: 1px;
+    left: 0;
+    right: 0;
+    height: 260px;
+  }
+  h6{
+    color: black;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    margin-top: 3px;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  p {
+    justify-content: center;
+    text-align: center;
+  
+  }
+  .conteiner{
+    justify-content: center;
+  }
+  h3{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #015366;
+    text-align: center;
+  }
+  .title {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-left: 550px;
+    font-family: 'Vollkorn SC', sans-serif;
+    margin-top: 88px;
+    
+  }
+.text {
+    width: 1000px;
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    line-height: 1.5; /* Збільшуємо відстань між рядками */
+    margin-left: 280px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Vollkorn SC", serif;
+  }
+
+  h2{
+    font-size: 20px;
+    font-family: "Vollkorn SC", serif;
+    color: #E0F4F5;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    background-color: #015366;
+    padding: 5px 10px;
+  }
+  h1{
+font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    font-family: 'Vollkorn SC', sans-serif;
+    margin-top: 30px;
+  }
+  .text1 {
+    width: 1000px;
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    line-height: 1.5; /* Збільшуємо відстань між рядками */
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Vollkorn SC", serif;
+    animation: colorChange 3s infinite;
+  }
+  @keyframes colorChange {
+    0% { color: #015366; }
+    50% { color: green; }
+    100% { color: red; }
+  }
+  
+  .img1{
+    margin-left: 400px;
+    top: 300px; /* Відступ від верхнього краю */
+    width: 600px;
+    height: 300px;
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+  h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 960px;
+    font-family: 'Vollkorn SC', sans-serif;
+    margin-top: 70px;
+  }
+  .text2 {
+    width: 700px;
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    line-height: 1.5; /* Збільшуємо відстань між рядками */
+    margin-left: 650px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: right;
+    font-family: "Vollkorn SC", serif;
+    animation: colorChange 3s infinite;
+  }
+  .img2{
+    margin-left: 570px;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+  
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px #58f56a;
+    }
+    100% {
+        box-shadow: 0 0 50px #58f56a;
+    }
+}
+  .img3{
+    margin-left: 1000px;
+    margin-top: -210px; /* Відступ від верхнього краю */
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+  .img4{
+    margin-left: 200px;
+    top: 0px; /* Відступ від верхнього краю */
+    width: 300px;
+    height: 300px;
+    transform: translate(-15%, -175%);
+    border-radius: 25px;
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+  h5{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    font-family: 'Vollkorn SC', sans-serif;
+    margin-top: -190px;
+  }
+  .text3 {
+    width: 600px;
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    line-height: 1.5; /* Збільшуємо відстань між рядками */
+    margin-left: 250px;
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Vollkorn SC", serif;
+    animation: colorChange 3s infinite;
+  }
+  .img5 {
+    margin-left: 940px;
+    width: 300px;
+    height: 500px;
+    transform: translate(5%, -55%);
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+  .img6 {
+    margin-left: 940px;
+    width: 500px;
+    height: 300px;
+    transform: translate(-141%, -145%);
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+.title1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 860px;
+    font-family: 'Vollkorn SC', sans-serif;
+    transform: translateY(-350px)
+  }
+  .text4 {
+    width: 700px;
+    text-align: justify; /* Вирівнюємо текст по ширині */
+    line-height: 1.5; /* Збільшуємо відстань між рядками */
+    margin-left: 710px;
+    margin-top: -300px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Vollkorn SC", serif;
+    animation: colorChange 3s infinite;
+  }
+  .img7{
+    margin-left: 940px;
+    width: 600px;
+    height: 400px;
+    transform: translate(-151%, -95%);
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+  .img8{
+    margin-left: 940px;
+    width: 650px;
+    height: 400px;
+    transform: translate(-35%, -75%);
+    border-top-color: #58f56a; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+  }
+  

@@ -1,0 +1,293 @@
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Напівпрозорий білий фон */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999; /* Щоб хедер завжди був зверху */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Розташування елементів справа */
+  }
+  
+  nav li {
+    margin: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #015366; /* Замініть "blue" на бажаний колір */
+      font-weight: bold;
+  }
+  a:hover {
+    color: yellow; /* Колір при наведенні */
+  }
+  .back-button {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #015366; /* Зелений колір */
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    top: 60px;
+    left: 10px;
+  }
+  
+.back-button svg {
+    fill: currentColor; /* Колір стрілки */
+  }
+
+
+
+body{
+    background-color: #E0F4F5;
+}
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Vinnytsia Sans', sans-serif;
+    
+  }
+
+  footer{
+    background-color: #aee7ea;
+  
+    margin-bottom: 10px;
+    left: 0;
+    right: 0;
+    height: 260px;
+  }
+  h6{
+    color: black;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+    margin-top: 3px;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  p {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .conteiner{
+    justify-content: center;
+  }
+  h1{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    padding-top: 5px;
+    background-color: #015366;
+    text-align: center;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 550px;
+    font-family: 'Vollkorn SC', sans-serif;
+    margin-top: 98px;
+    
+  }
+  .img{
+  
+  margin-left: 50px;
+  top: 200px; /* Відступ від верхнього краю */
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+    border-top-color: #a013dd; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px #a013dd;
+    }
+    100% {
+        box-shadow: 0 0 50px #a013dd;
+    }
+}
+.text {
+  width: 600px;
+  text-align: justify; /* Вирівнюємо текст по ширині */
+  line-height: 1.5; /* Збільшуємо відстань між рядками */
+  margin-left: 800px;
+  margin-top: -380px;
+  font-size: 20px;
+  font-family: "Vollkorn SC", serif;
+}
+
+h2{
+  font-size: 30px;
+  font-family: "Vollkorn SC", serif;
+  color: #E0F4F5;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 250px;
+  background-color: #015366;
+  padding: 5px 10px;
+}
+.text1{
+  width: 800px;
+  text-align: justify; /* Вирівнюємо текст по ширині */
+  line-height: 1.5; /* Збільшуємо відстань між рядками */
+  text-align: center;
+
+  font-size: 20px;
+  font-family: "Vollkorn SC", serif;
+  transform: translate(45%, 15%);
+}
+.text2{
+  width: 800px;
+  text-align: justify; /* Вирівнюємо текст по ширині */
+  line-height: 1.5; /* Збільшуємо відстань між рядками */
+  text-align: center;
+
+  font-size: 20px;
+  font-family: "Vollkorn SC", serif;
+  transform: translate(45%, 15%);
+}
+.img1{
+  margin-left: 20px;
+  top: 200px; /* Відступ від верхнього краю */
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+    border-top-color: #a013dd; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+}
+.img2{
+  margin-left: 200px;
+  top: 200px; /* Відступ від верхнього краю */
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+    border-top-color: #a013dd; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+h3{
+  font-size: 30px;
+  font-family: "Vollkorn SC", serif;
+  color: #E0F4F5;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background-color: #015366;
+  padding: 5px 10px;
+}
+
+.text3{
+  width: 800px;
+  text-align: justify; /* Вирівнюємо текст по ширині */
+  line-height: 1.5; /* Збільшуємо відстань між рядками */
+  text-align: center;
+
+  font-size: 20px;
+  font-family: "Vollkorn SC", serif;
+  transform: translate(45%, 9%);
+}
+.img3{
+  margin-left: 450px;
+  top: 200px; /* Відступ від верхнього краю */
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 5px solid transparent;
+    border-top-color: #a013dd; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+}
+
+
+h4{
+  font-size: 30px;
+  font-family: "Vollkorn SC", serif;
+  color: #E0F4F5;
+  text-align: center;
+  margin-bottom: -90px;
+  margin-top: 50px;
+  background-color: #015366;
+  padding: 5px 10px;
+}
+.text4{
+  width: 800px;
+  text-align: justify; /* Вирівнюємо текст по ширині */
+  line-height: 1.5; /* Збільшуємо відстань між рядками */
+  text-align: center;
+
+  font-size: 20px;
+  font-family: "Vollkorn SC", serif;
+  transform: translate(45%, 25%);
+}
+.img4{
+  margin-left: 450px;
+  top: 200px; /* Відступ від верхнього краю */
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  transform: translate(0%, 25%);
+  border-radius: 10px;
+  border: 5px solid transparent;
+    border-top-color: #a013dd; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+}
+
+h5{
+  font-size: 30px;
+  font-family: "Vollkorn SC", serif;
+  color: #E0F4F5;
+  text-align: center;
+  margin-bottom: -30px;
+  margin-top: 250px;
+  background-color: #015366;
+  padding: 5px 10px;
+  transform: translate(0%, -155%);
+}
+.text5{
+  width: 800px;
+  text-align: justify; /* Вирівнюємо текст по ширині */
+  line-height: 1.5; /* Збільшуємо відстань між рядками */
+  text-align: center;
+
+  font-size: 20px;
+  font-family: "Vollkorn SC", serif;
+  transform: translate(45%, -15%);
+}
+.img5{
+  margin-left: 600px;
+  top: 200px; /* Відступ від верхнього краю */
+  width: 600px;
+  height: 400px;
+  margin-top: 20px;
+  transform: translate(-20%, -15%);
+  border-radius: 10px;
+  border: 5px solid transparent;
+    border-top-color: #a013dd; /* Колір обводки */
+    border-radius: inherit;
+    animation: glow 1s infinite alternate;
+}
